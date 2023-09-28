@@ -1,3 +1,9 @@
+var today = new Date();
+var day = today.getDate();
+var month = today.getMonth() + 1;
+var year = today.getFullYear();
+document.getElementById('Date').innerHTML = day + '/' + month + '/' + year;
+
 function AddTask() {
     if(document.getElementById('TextTask').value != ''){
         const Lista = document.getElementById('TaskList');
