@@ -1,0 +1,130 @@
+header {
+    height: 110px;
+    background-color: rgb(30, 129, 175);
+    text-align: center;
+    padding: 1px;
+    line-height: 30%;
+    color: #FFFFFF;
+    border-radius: 30px;
+    margin: 0;
+    border: 2px solid #FFFFFF;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    padding: none;
+    margin: none;
+    letter-spacing: 3px;
+}
+
+h2, h3, button {
+    font-family: 'Saira Condensed', sans-serif;
+    padding: none;
+    margin: none;
+
+}
+
+p {
+    font-family: 'Caveat', cursive;
+    padding: none;
+    margin: none;
+}
+
+body {
+    background-color: rgb(153, 155, 156);
+}
+
+.container {
+    display: flex;
+}
+
+.Formulario {
+    width: 40%;
+    background-color: rgb(93, 178, 218);
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    margin: 4px;
+    box-sizing: border-box;
+}
+
+.Lista {
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: rgb(93, 178, 218);
+    width: 60%;
+    margin: 4px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+#TextTask {
+    border-radius: 10px;
+    height: 30px;
+    width: 80%;
+    background-color: rgb(160, 207, 229);
+    color: #022336;
+}
+
+#NewTask {
+    background-color: rgb(160, 207, 229);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.Task {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.btnDelete {
+    width: 50px;
+    background-image: url('Delete.png');
+}
+
+.mycheck {
+    width: 80px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(93, 178, 218);
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: block;
+    }
+    .Formulario {
+        width: 100%;
+        margin: 0;
+    }
+    .Lista {
+        width: 100%;
+        margin: 0;
+    }
+  }
